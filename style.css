@@ -1,0 +1,155 @@
+body {
+    margin: 0%;
+    height: 100vh;
+}
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 25px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+}
+
+h1 {
+    margin: 0%;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.css {
+    border-radius: 50%;
+    max-width: 450px;
+    height: auto;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 25px;
+    width: 100px;
+    color: white;
+}
+
+.s1 {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.s1 > p {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+    margin: 20px;
+}
+
+.cards-section {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.s1 img {
+    border: 5px solid #3882f6;
+    width: 100px;
+    height: auto;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.s2 {
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 50px 15%;
+}
+
+.s2 p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    flex: 1;
+}
+
+.s2 span {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+}
+
+.s3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #3882f6;
+    margin: 50px 15%;
+    padding: 20px 5%;
+    border-radius: 10px;
+}
+
+.s3-left {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.s3 button {
+    border-color: white;
+}
+
+.s3-header {
+    font-weight: bold;
+}
+
+footer {
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
